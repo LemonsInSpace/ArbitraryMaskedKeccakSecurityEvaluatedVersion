@@ -12,6 +12,8 @@ This is not a claim of security, simply that it is expected not to leak informat
 
 This is designed for use with the ChipWhisperer and assumes the ChipWhisperer HAL. Please download the version 6.0.0 of the ChipWhisperer software and place this folder inside /chipwhisperer/firmware/mcu and the contained headers and makefile will work.
 
+Included are python TVLA and statistics capture for non-streamed mode. Can easily be changed to streaming mode with only one or two changes. Additionally the script to use the statistical output to generate a small report is included also. 
+
 # Masked Keccak-f[1600] Evaluation Firmware
 
 **Author:** Adam Beattie  
