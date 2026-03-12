@@ -1,4 +1,4 @@
-Each of these methods has been designed for side-channel security and has been evaluated at first and second order masking for the linear operations:theta, rho, pi and iota and at masking orders 1 and with masking orders 1-3 and TVLA orders 1-4 for the only non-linnear method chi. 
+Each of these methods has been designed for side-channel security and has been evaluated at first and second order masking for the linear operations:theta, rho, pi and iota and with masking orders 1-3 and TVLA orders 1-4 for the only non-linnear method chi. 
 
 This is not a claim of security, simply that it is expected not to leak information with a T value greater than 4.5.
 
