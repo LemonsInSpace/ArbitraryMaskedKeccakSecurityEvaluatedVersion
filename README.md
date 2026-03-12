@@ -25,7 +25,7 @@ Included are python TVLA and statistics capture for non-streamed mode. Can easil
 This firmware implements an **arbitrary-order Boolean-masked Keccak-f[1600] permutation** for cycle-accurate **side-channel evaluation**.  
 It is designed as a minimal **capture target**, providing direct access to each round function component (Θ, ρ, π, χ, ι) via SimpleSerial commands.
 
-Only **one capture file and Makefile** are included in this stage — the purpose is to verify the **core masked Keccak permutation** before integrating the full **SHA-3 sponge construction**.
+Only **one capture file and Makefile** are evaluated with a TVLA — the purpose is to verify the **core masked Keccak permutation** before integrating the full **SHA-3 sponge construction**. The entire SHA-3 construction is included for convenience. 
 
 ---
 
@@ -57,7 +57,7 @@ Only **one capture file and Makefile** are included in this stage — the purpos
 ### First Order Masking (Linear Operations)
 
 TVLA results for Θ, ρ, π and ι under **first-order masking**.
-
+First Statistical Order TVLA
 ![First Order TVLA Order 1](images/FirstOrderMaskingNotChi/first_order_masking_first_order_tvla_combined.png)
 
 ![First Order TVLA Order 2](images/FirstOrderMaskingNotChi/first_order_masking_second_order_tvla_combined.png)
