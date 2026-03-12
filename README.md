@@ -58,21 +58,21 @@ Only **one capture file and Makefile** are included in this stage — the purpos
 
 TVLA results for Θ, ρ, π and ι under **first-order masking**.
 
-![First Order TVLA Order 1](Images/FirstOrderMaskingNotChi/first_order_masking_first_order_tvla_combined.png)
+![First Order TVLA Order 1](images/FirstOrderMaskingNotChi/first_order_masking_first_order_tvla_combined.png)
 
-![First Order TVLA Order 2](Images/FirstOrderMaskingNotChi/first_order_masking_second_order_tvla_combined.png)
+![First Order TVLA Order 2](images/FirstOrderMaskingNotChi/first_order_masking_second_order_tvla_combined.png)
 
-![First Order TVLA Order 3](Images/FirstOrderMaskingNotChi/first_order_masking_third_order_tvla_combined.png)
+![First Order TVLA Order 3](images/FirstOrderMaskingNotChi/first_order_masking_third_order_tvla_combined.png)
 
 ### Second Order Masking (Linear Operations)
 
 TVLA results for Θ, ρ, π and ι under **second-order masking**.
 
-![Second Order TVLA Order 1](Images/SecondOrderMaskingNotChi/second_order_masking_first_order_tvla_combined.png)
+![Second Order TVLA Order 1](images/SecondOrderMaskingNotChi/second_order_masking_first_order_tvla_combined.png)
 
-![Second Order TVLA Order 2](Images/SecondOrderMaskingNotChi/second_order_masking_second_order_tvla_combined.png)
+![Second Order TVLA Order 2](images/SecondOrderMaskingNotChi/second_order_masking_second_order_tvla_combined.png)
 
-![Second Order TVLA Order 3](Images/SecondOrderMaskingNotChi/second_order_masking_third_order_tvla_combined.png)
+![Second Order TVLA Order 3](images/SecondOrderMaskingNotChi/second_order_masking_third_order_tvla_combined.png)
 
 ### Nonlinear Step (χ)
 
@@ -80,11 +80,11 @@ The χ transformation is the only nonlinear step in the Keccak permutation and t
 
 The following plots show TVLA orders 1–4 for masking orders 1–3.
 
-![Chi Masking Order 1](Images/Chi/chi_all_tvla_orders_masking_1.png)
+![Chi Masking Order 1](images/Chi/chi_all_tvla_orders_masking_1.png)
 
-![Chi Masking Order 2](Images/Chi/chi_all_tvla_orders_masking_2.png)
+![Chi Masking Order 2](images/Chi/chi_all_tvla_orders_masking_2.png)
 
-![Chi Masking Order 3](Images/Chi/chi_all_tvla_orders_masking_3.png)
+![Chi Masking Order 3](images/Chi/chi_all_tvla_orders_masking_3.png)
 
 ---
 
@@ -94,11 +94,11 @@ Measured code size and memory usage for the masked permutation implementation.
 
 ### ROM Usage
 
-![ROM Usage](Images/rom_usage.png)
+![ROM Usage](images/rom_usage.png)
 
 ### RAM Usage
 
-![RAM Usage](Images/ram_usage.png)
+![RAM Usage](images/ram_usage.png)
 
 
 ## Build and Flash
